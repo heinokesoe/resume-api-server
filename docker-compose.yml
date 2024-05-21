@@ -1,0 +1,7 @@
+version: "3"
+services:
+  resume-api-server:
+    image: heinokesoe/resume-api-server:latest
+    name: resume-api-server
+    ports:
+      - "3000:3000"

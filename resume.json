@@ -1,0 +1,268 @@
+{
+  "basics": {
+    "name": "Hein Oke Soe",
+    "label": "Backend Developer",
+    "email": "heinokesoe@freaks.dev",
+    "phone": "+66842646051",
+    "website": "https://freaks.dev",
+    "resume": "https://resume.freaks.dev",
+    "location": {
+      "postalCode": "10560",
+      "city": "Bang Bo",
+      "country": "Thailand"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Hein Oke Soe",
+        "url": "https://www.linkedin.com/in/hein-oke-soe-61021b308"
+      },
+      {
+        "network": "GitHub",
+        "username": "Hein Oke Soe",
+        "url": "https://github.com/heinokesoe"
+      },
+      {
+        "network": "Telegram",
+        "username": "Hein",
+        "url": "https://t.me/heinokesoe"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Assumption University of Thailand",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "status": "Second Year",
+      "completedCredits": "38",
+      "gpa": "3.85/4.0"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "Python",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Expert",
+      "keywords": [
+        "Bash",
+        "Shell scripting"
+      ]
+    },
+    {
+      "name": "Containerization",
+      "level": "Expert",
+      "keywords": [
+        "Docker",
+        "Podman",
+        "LXC",
+        "LXD"
+      ]
+    },
+    {
+      "name": "Webserver",
+      "level": "Expert",
+      "keywords": [
+        "Traefik",
+        "Nginx",
+        "Lighttpd"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Expert",
+      "keywords": [
+        "Actions",
+        "CI/CD"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "RunningMan API Server",
+      "description": "This is the API server with all the titles and links of RunningMan episodes 700+ stored in sqlite database",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "Sqlite"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/runningman-api-server",
+        "demo": "https://rm.freaks.dev"
+      }
+    },
+    {
+      "name": "Morse Code Translate API Server",
+      "description": "This is the API server that can translate Morse code into English and English into Morse code",
+      "keywords": [
+        "Python",
+        "Flask"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/morse-translate-api-server",
+        "demo": "https://morse.freaks.dev"
+      }
+    },
+    {
+      "name": "Resume API Server",
+      "description": "This is the API server of my resume",
+      "keywords": [
+        "Node.js",
+        "Express.js"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/resume-api-server",
+        "demo": "https://resume.freaks.dev"
+      }
+    },
+    {
+      "name": "Music Player",
+      "description": "This is the simple music player for my Java class project",
+      "keywords": [
+        "Java",
+        "JavaFX",
+        "MongoDB"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/MusicPlayer"
+      }
+    },
+    {
+      "name": "Memory Game",
+      "description": "This is the memory game for my Java class project",
+      "keywords": [
+        "Java",
+        "JavaFX"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/MemoryGame"
+      }
+    },
+    {
+      "name": "Artix Linux Installer",
+      "description": "This is the automated shell script to install Artix Linux for personal use",
+      "keywords": [
+        "Linux",
+        "Shell scripting"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/ArtixInstaller"
+      }
+    },
+    {
+      "name": "Custom Docker Containers CI/CD with Github Actions",
+      "description": "This is to build and publish my custom docker containers automatically for personal use",
+      "keywords": [
+        "Containerization",
+        "Github",
+        "CI/CD"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/dockerfiles"
+      }
+    },
+    {
+      "name": "Ready to Play GTASA in LXC Container",
+      "description": "This is my ready to play GTASA in rootful LXC Container",
+      "keywords": [
+        "Containerization",
+        "LXC",
+        "LXD",
+        "GTASA"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/gtasa-in-container"
+      }
+    },
+    {
+      "name": "Ready to Play GTASA in Unprivileged Podman Container",
+      "description": "This is my ready to play GTASA in rootless Podman container",
+      "keywords": [
+        "Containerization",
+        "Podman",
+        "Unprivileged",
+        "GTASA"
+      ],
+      "urls": {
+        "sourceCode": "https://codeberg.org/heinokesoe/gta-san-andreas-in-container"
+      }
+    },
+    {
+      "name": "Blogging with Hugo, Github CI/CD and Cloudflare Pages",
+      "description": "This is for publishing the collection of all my experiences in Selfhosting",
+      "keywords": [
+        "Github",
+        "CI/CD",
+        "Cloudflare",
+        "Hugo"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/notes.freaks.dev",
+        "demo": "https://notes.freaks.dev"
+      }
+    },
+    {
+      "name": "Collection of Personal Shell Scripts",
+      "description": "This is the collection of shell scripts for personal use",
+      "keywords": [
+        "Linux",
+        "Shell scripting"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/scripts"
+      }
+    },
+    {
+      "name": "Neovim From Browser",
+      "description": "This is the Neovim in cloud for personal use",
+      "keywords": [
+        "Neovim",
+        "Containerization"
+      ],
+      "urls": {
+        "sourceCode": "https://github.com/heinokesoe/nvim-from-browser"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "issuers": [
+        "IBM",
+        "Cisco",
+        "AWS"
+      ],
+      "url": "https://www.credly.com/users/hein-oke-soe/badges"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Selfhosting",
+      "keywords": [
+        "selfhost",
+        "open source"
+      ]
+    }
+  ]
+}
